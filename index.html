@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raila | قطار حومه‌ای تهران - پرند</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f0d15;
+      --card-bg: #1a1625;
+      --card-border: #28223a;
+      --accent: #9373ee;
+      --accent-hover: #7b5ad8;
+      --text: #ffffff;
+      --text-muted: #9e9bb0;
+      --badge-bg: #2d2642;
+      --warning-bg: rgba(234, 179, 8, 0.08);
+      --warning-border: rgba(234, 179, 8, 0.25);
+      --warning-text: #fde047;
+      --font-fa: 'Vazirmatn', sans-serif;
+      --font-en: 'Inter', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font-fa);
+      line-height: 1.6;
+      padding: 24px 16px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 680px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-icon {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, #7b5ad8, #9373ee);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .brand-icon svg {
+      width: 24px;
+      height: 24px;
+      fill: #ffffff;
+    }
+
+    .brand-title {
+      font-size: 1.4rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+
+    .lang-switch {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      font-family: var(--font-en);
+    }
+
+    .hero {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      padding: 24px 0 8px;
+    }
+
+    .badge {
+      background-color: var(--badge-bg);
+      color: var(--accent);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+
+    .hero h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      line-height: 1.3;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 520px;
+    }
+
+    .download-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .btn-download {
+      background-color: var(--accent);
+      color: #ffffff;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      max-width: 340px;
+      padding: 16px;
+      border-radius: 14px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      transition: background 0.2s;
+    }
+
+    .btn-download:hover {
+      background-color: var(--accent-hover);
+    }
+
+    .btn-download svg {
+      width: 22px;
+      height: 22px;
+      fill: currentColor;
+    }
+
+    .version-tag {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      font-family: var(--font-en);
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+
+    .feature-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 20px;
+    }
+
+    .feature-card h3 {
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+      color: #ffffff;
+    }
+
+    .feature-card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .disclaimer-card {
+      background-color: var(--warning-bg);
+      border: 1px solid var(--warning-border);
+      border-radius: 16px;
+      padding: 20px;
+    }
+
+    .disclaimer-card h3 {
+      font-size: 1.05rem;
+      margin-bottom: 8px;
+      color: var(--warning-text);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .disclaimer-card h3 svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+      flex-shrink: 0;
+    }
+
+    .disclaimer-card p {
+      color: #d1d0db;
+      font-size: 0.9rem;
+      line-height: 1.7;
+    }
+
+    .github-box {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 24px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .github-box h3 {
+      font-size: 1.2rem;
+    }
+
+    .github-box p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .btn-github {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text);
+      background-color: #242033;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: 1px solid var(--card-border);
+      font-family: var(--font-en);
+    }
+
+    .btn-github svg {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+    }
+
+    .footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      padding-bottom: 16px;
+    }
+
+    .lang-en {
+      display: none;
+      direction: ltr;
+      text-align: left;
+      font-family: var(--font-en);
+    }
+
+    body.en {
+      direction: ltr;
+      text-align: left;
+      font-family: var(--font-en);
+    }
+
+    body.en .lang-fa {
+      display: none;
+    }
+
+    body.en .lang-en {
+      display: block;
+    }
+
+    body.en .hero {
+      text-align: center;
+    }
+
+    body.en .github-box {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="brand-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2c-4 0-8 .5-8 4v9.5C4 17.43 5.57 19 7.5 19L6 20.5v.5h12v-.5L16.5 19c1.93 0 3.5-1.57 3.5-3.5V6c0-3.5-3.58-4-8-4zM7.5 17c-.83 0-1.5-.67-1.5-1.5S6.67 14 7.5 14s1.5.67 1.5 1.5S8.33 17 7.5 17zm9 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm1.5-6H6V6h12v5z"/>
+          </svg>
+        </div>
+        <span class="brand-title">Raila</span>
+      </div>
+      <button class="lang-switch" onclick="toggleLanguage()">EN / FA</button>
+    </header>
+
+    <div class="lang-fa">
+      <section class="hero">
+        <span class="badge">۱۰۰٪ آفلاین و رایگان</span>
+        <h1>برنامه زمان‌بندی قطار حومه‌ای تهران - پرند</h1>
+        <p>بدون نیاز به اتصال اینترنت، بدون تبلیغات و بدون جمع‌آوری اطلاعات. همیشه سریع و در دسترس روی گوشی شما.</p>
+      </section>
+    </div>
+
+    <div class="lang-en">
+      <section class="hero">
+        <span class="badge">100% Offline & Free</span>
+        <h1>Tehran - Parand Suburban Rail Timetable</h1>
+        <p>No internet required, no advertisements, and zero tracking. Fast, native, and always accessible on your Android device.</p>
+      </section>
+    </div>
+
+    <section class="download-section">
+      <a href="https://github.com/sajadrahimi-dev/raila/releases/latest" class="btn-download">
+        <svg viewBox="0 0 24 24">
+          <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
+        </svg>
+        <span class="lang-fa">دانلود مستقیم نسخه اندروید</span>
+        <span class="lang-en">Download Android APK</span>
+      </a>
+      <span class="version-tag">Version 1.0 (APK) &bull; Free & Open Source</span>
+    </section>
+
+    <div class="lang-fa">
+      <section class="features-grid">
+        <div class="feature-card">
+          <h3>کاملاً آفلاین</h3>
+          <p>تمامی ساعت‌ها و اطلاعات ایستگاه‌ها روی حافظه داخلی دستگاه شما قرار دارند و در هر شرایطی بدون اینترنت باز می‌شوند.</p>
+        </div>
+        <div class="feature-card">
+          <h3>ساده و سبک</h3>
+          <p>تمرکز مستقیم روی نیاز مسافر؛ مشاهده قطار بعدی، زمان باقی‌مانده تا حرکت و ایستگاه‌های مسیر با رابط کاربری تاریک و مدرن.</p>
+        </div>
+        <div class="feature-card">
+          <h3>حفظ کامل حریم خصوصی</h3>
+          <p>برنامه هیچ نوع دسترسی حساسی نمی‌خواهد، داده‌ای به هیچ سروری ارسال نمی‌شود و اطلاعات شما کاملاً در اختیار خودتان است.</p>
+        </div>
+      </section>
+    </div>
+
+    <div class="lang-en">
+      <section class="features-grid">
+        <div class="feature-card">
+          <h3>Completely Offline</h3>
+          <p>All timetables and station details are bundled locally on your device, accessible anytime without a network connection.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Fast & Commuter-Centric</h3>
+          <p>Displays upcoming trains, countdowns to departure, and stop-by-stop details with a sleek dark theme built with Jetpack Compose.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Privacy-First</h3>
+          <p>Zero tracking, zero telemetry, and zero invasive permissions. The application operates entirely locally.</p>
+        </div>
+      </section>
+    </div>
+
+    <div class="lang-fa">
+      <section class="disclaimer-card">
+        <h3>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2L1 21h22L12 2zm0 3.99L19.53 19H4.47L12 5.99zM11 10h2v4h-2zm0 6h2v2h-2z"/>
+          </svg>
+          سلب مسئولیت و عدم وابستگی
+        </h3>
+        <p>این پروژه کاملاً مستقل، شخصی و متن‌باز است و هیچ‌گونه وابستگی، ارتباط رسمی یا همکاری با شرکت راه‌آهن جمهوری اسلامی ایران یا شرکت حمل و نقل ریلی رجا ندارد. ساعت‌ها و برنامه‌های نمایش داده شده صرفاً بر اساس اطلاعات عمومی منتشر شده است و توسعه‌دهنده هیچ‌گونه مسئولیتی در قبال تغییرات ناگهانی ساعت حرکت، لغو قطارها، تأخیرها یا خسارات احتمالی ناشی از استفاده از این برنامه بر عهده نمی‌گیرد.</p>
+      </section>
+    </div>
+
+    <div class="lang-en">
+      <section class="disclaimer-card">
+        <h3>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2L1 21h22L12 2zm0 3.99L19.53 19H4.47L12 5.99zM11 10h2v4h-2zm0 6h2v2h-2z"/>
+          </svg>
+          Disclaimer & Notice
+        </h3>
+        <p>This project is completely independent, personal, and open-source. It has no affiliation, connection, or official relationship with the Islamic Republic of Iran Railways or Raja Rail Transportation Co. Train timetables are compiled based on publicly announced schedules. The developer assumes no responsibility or liability for train delays, cancellations, unscheduled timetable adjustments, or any inconveniences arising from the use of this software.</p>
+      </section>
+    </div>
+
+    <section class="github-box">
+      <div class="lang-fa">
+        <h3>پروژه متن‌باز (Open Source)</h3>
+        <p>کد منبع این نرم‌افزار به صورت کاملاً آزاد و متن‌باز تحت گیت‌هاب در دسترس است. می‌توانید ساختار آن را بررسی کنید یا در بهبود آن مشارکت داشته باشید.</p>
+      </div>
+      <div class="lang-en">
+        <h3>Open Source Software</h3>
+        <p>Raila is fully open-source. You can inspect the source code, review commits, or contribute to its development on GitHub.</p>
+      </div>
+      <a href="https://github.com/sajadrahimi-dev/raila" target="_blank" rel="noopener noreferrer" class="btn-github">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+        </svg>
+        GitHub Repository
+      </a>
+    </section>
+
+    <footer class="footer">
+      <span class="lang-fa">توسعه داده شده به صورت مستقل برای مسافران خط آهن پرند - تهران</span>
+      <span class="lang-en">Independently developed for Tehran - Parand rail commuters</span>
+    </footer>
+  </div>
+
+  <script>
+    function toggleLanguage() {
+      document.body.classList.toggle('en');
+      const isEn = document.body.classList.contains('en');
+      document.documentElement.setAttribute('lang', isEn ? 'en' : 'fa');
+      document.documentElement.setAttribute('dir', isEn ? 'ltr' : 'rtl');
+    }
+  </script>
+</body>
+</html>
