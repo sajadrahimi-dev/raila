@@ -5,14 +5,14 @@
       "name": { "fa": "تهران-پرند۱", "en": "Tehran-Parand 1" },
       "days": { "fa": "شنبه تا پنجشنبه", "en": "Saturday to Thursday" },
       "stations": [
-        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "03:10" },
-        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "03:25" },
-        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "03:39" },
-        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "03:44" },
-        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "03:49" },
-        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "03:54" },
-        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "03:58" },
-        { "name": { "fa": "پرند", "en": "Parand" }, "time": "04:15" }
+        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "03:00" },
+        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "03:15" },
+        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "03:29" },
+        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "03:34" },
+        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "03:39" },
+        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "03:44" },
+        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "03:48" },
+        { "name": { "fa": "پرند", "en": "Parand" }, "time": "04:05" }
       ]
     },
     {
@@ -20,14 +20,14 @@
       "name": { "fa": "تهران-پرند۲", "en": "Tehran-Parand 2" },
       "days": { "fa": "شنبه تا پنجشنبه", "en": "Saturday to Thursday" },
       "stations": [
-        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "04:05" },
-        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "04:20" },
-        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "04:34" },
-        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "04:39" },
-        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "04:44" },
-        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "04:49" },
-        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "04:53" },
-        { "name": { "fa": "پرند", "en": "Parand" }, "time": "05:10" }
+        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "04:10" },
+        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "04:25" },
+        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "04:39" },
+        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "04:44" },
+        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "04:49" },
+        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "04:54" },
+        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "05:03" },
+        { "name": { "fa": "پرند", "en": "Parand" }, "time": "05:20" }
       ]
     },
     {
@@ -35,14 +35,14 @@
       "name": { "fa": "تهران-پرند۳", "en": "Tehran-Parand 3" },
       "days": { "fa": "همه روزه", "en": "Everyday" },
       "stations": [
-        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "04:55" },
-        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "05:10" },
-        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "05:24" },
-        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "05:29" },
-        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "05:34" },
-        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "05:39" },
-        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "05:43" },
-        { "name": { "fa": "پرند", "en": "Parand" }, "time": "06:00" }
+        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "04:50" },
+        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "05:05" },
+        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "05:27" },
+        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "05:32" },
+        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "05:37" },
+        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "05:42" },
+        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "05:48" },
+        { "name": { "fa": "پرند", "en": "Parand" }, "time": "06:05" }
       ]
     },
     {
@@ -50,14 +50,14 @@
       "name": { "fa": "تهران-پرند۴", "en": "Tehran-Parand 4" },
       "days": { "fa": "همه روزه", "en": "Everyday" },
       "stations": [
-        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "07:00" },
-        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "07:15" },
-        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "07:29" },
-        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "07:34" },
-        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "07:39" },
-        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "07:44" },
-        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "07:48" },
-        { "name": { "fa": "پرند", "en": "Parand" }, "time": "08:05" }
+        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "06:50" },
+        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "07:05" },
+        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "07:19" },
+        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "07:24" },
+        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "07:29" },
+        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "07:34" },
+        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "07:38" },
+        { "name": { "fa": "پرند", "en": "Parand" }, "time": "07:55" }
       ]
     },
     {
@@ -93,14 +93,14 @@
     {
       "id": "834",
       "name": { "fa": "تهران-پرند۹", "en": "Tehran-Parand 9" },
-      "days": { "fa": "شنبه تا پنجشنبه", "en": "Saturday to Thursday" },
+      "days": { "fa": "همه روزه", "en": "Everyday" },
       "stations": [
-        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "14:20" },
-        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "14:35" },
-        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "14:49" },
-        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "14:54" },
-        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "14:59" },
-        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "15:04" },
+        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "14:15" },
+        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "14:30" },
+        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "14:44" },
+        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "14:49" },
+        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "14:54" },
+        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "14:59" },
         { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "15:13" },
         { "name": { "fa": "پرند", "en": "Parand" }, "time": "15:30" }
       ]
@@ -140,14 +140,14 @@
       "name": { "fa": "تهران-پرند۱۲", "en": "Tehran-Parand 12" },
       "days": { "fa": "همه روزه", "en": "Everyday" },
       "stations": [
-        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "18:20" },
-        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "18:35" },
-        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "18:49" },
-        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "18:54" },
-        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "18:59" },
-        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "19:04" },
-        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "19:08" },
-        { "name": { "fa": "پرند", "en": "Parand" }, "time": "19:25" }
+        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "18:15" },
+        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "18:30" },
+        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "18:44" },
+        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "18:49" },
+        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "18:53" },
+        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "18:57" },
+        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "19:03" },
+        { "name": { "fa": "پرند", "en": "Parand" }, "time": "19:20" }
       ]
     },
     {
@@ -187,14 +187,14 @@
       "name": { "fa": "پرند-تهران۱", "en": "Parand-Tehran 1" },
       "days": { "fa": "شنبه تا پنجشنبه", "en": "Saturday to Thursday" },
       "stations": [
-        { "name": { "fa": "پرند", "en": "Parand" }, "time": "04:30" },
-        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "04:52" },
-        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "04:56" },
-        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "05:00" },
-        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "05:04" },
-        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "05:18" },
-        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "05:31" },
-        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "05:45" }
+        { "name": { "fa": "پرند", "en": "Parand" }, "time": "04:45" },
+        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "05:05" },
+        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "05:10" },
+        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "05:15" },
+        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "05:19" },
+        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "05:30" },
+        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "05:43" },
+        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "05:55" }
       ]
     },
     {
@@ -202,14 +202,14 @@
       "name": { "fa": "پرند-تهران۲", "en": "Parand-Tehran 2" },
       "days": { "fa": "شنبه تا پنجشنبه", "en": "Saturday to Thursday" },
       "stations": [
-        { "name": { "fa": "پرند", "en": "Parand" }, "time": "05:25" },
-        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "05:44" },
-        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "05:48" },
-        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "05:51" },
-        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "05:55" },
-        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "06:07" },
-        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "06:20" },
-        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "06:35" }
+        { "name": { "fa": "پرند", "en": "Parand" }, "time": "05:30" },
+        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "05:49" },
+        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "05:54" },
+        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "05:59" },
+        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "06:04" },
+        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "06:13" },
+        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "06:26" },
+        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "06:40" }
       ]
     },
     {
@@ -217,14 +217,14 @@
       "name": { "fa": "پرند-تهران۳", "en": "Parand-Tehran 3" },
       "days": { "fa": "همه روزه", "en": "Everyday" },
       "stations": [
-        { "name": { "fa": "پرند", "en": "Parand" }, "time": "06:10" },
-        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "06:29" },
-        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "06:33" },
-        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "06:38" },
-        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "06:42" },
-        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "06:52" },
-        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "07:05" },
-        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "07:20" }
+        { "name": { "fa": "پرند", "en": "Parand" }, "time": "06:15" },
+        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "06:34" },
+        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "06:39" },
+        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "06:43" },
+        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "06:47" },
+        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "06:57" },
+        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "07:10" },
+        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "07:25" }
       ]
     },
     {
@@ -232,14 +232,14 @@
       "name": { "fa": "پرند-تهران۴", "en": "Parand-Tehran 4" },
       "days": { "fa": "همه روزه", "en": "Everyday" },
       "stations": [
-        { "name": { "fa": "پرند", "en": "Parand" }, "time": "08:35" },
-        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "08:57" },
-        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "09:01" },
-        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "09:06" },
-        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "09:10" },
-        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "09:20" },
-        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "09:33" },
-        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "09:45" }
+        { "name": { "fa": "پرند", "en": "Parand" }, "time": "08:40" },
+        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "08:59" },
+        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "09:04" },
+        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "09:09" },
+        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "09:14" },
+        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "09:22" },
+        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "09:35" },
+        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "09:50" }
       ]
     },
     {
@@ -247,14 +247,14 @@
       "name": { "fa": "پرند-تهران۵", "en": "Parand-Tehran 5" },
       "days": { "fa": "همه روزه", "en": "Everyday" },
       "stations": [
-        { "name": { "fa": "پرند", "en": "Parand" }, "time": "09:30" },
-        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "09:49" },
-        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "09:54" },
-        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "09:59" },
-        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "10:04" },
-        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "10:12" },
-        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "10:25" },
-        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "10:40" }
+        { "name": { "fa": "پرند", "en": "Parand" }, "time": "09:25" },
+        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "09:44" },
+        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "09:49" },
+        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "09:54" },
+        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "09:59" },
+        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "10:07" },
+        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "10:20" },
+        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "10:35" }
       ]
     },
     {
@@ -267,15 +267,15 @@
         { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "12:48" },
         { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "12:53" },
         { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "12:58" },
-        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "13:08" },
-        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "13:21" },
+        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "13:07" },
+        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "13:20" },
         { "name": { "fa": "تهران", "en": "Tehran" }, "time": "13:35" }
       ]
     },
     {
       "id": "835",
       "name": { "fa": "پرند-تهران۹", "en": "Parand-Tehran 9" },
-      "days": { "fa": "شنبه تا پنجشنبه", "en": "Saturday to Thursday" },
+      "days": { "fa": "همه روزه", "en": "Everyday" },
       "stations": [
         { "name": { "fa": "پرند", "en": "Parand" }, "time": "15:40" },
         { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "15:59" },
@@ -307,14 +307,14 @@
       "name": { "fa": "پرند-تهران۱۱", "en": "Parand-Tehran 11" },
       "days": { "fa": "همه روزه", "en": "Everyday" },
       "stations": [
-        { "name": { "fa": "پرند", "en": "Parand" }, "time": "18:50" },
-        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "19:09" },
-        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "19:13" },
-        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "19:18" },
-        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "19:23" },
-        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "19:32" },
-        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "19:45" },
-        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "20:00" }
+        { "name": { "fa": "پرند", "en": "Parand" }, "time": "18:45" },
+        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "19:04" },
+        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "19:08" },
+        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "19:13" },
+        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "19:18" },
+        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "19:27" },
+        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "19:40" },
+        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "19:55" }
       ]
     },
     {
@@ -342,8 +342,8 @@
         { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "21:23" },
         { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "21:28" },
         { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "21:33" },
-        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "21:43" },
-        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "21:56" },
+        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "21:42" },
+        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "21:55" },
         { "name": { "fa": "تهران", "en": "Tehran" }, "time": "22:10" }
       ]
     },
@@ -352,14 +352,14 @@
       "name": { "fa": "پرند-تهران۱۴", "en": "Parand-Tehran 14" },
       "days": { "fa": "روزهای اداری", "en": "Workdays" },
       "stations": [
-        { "name": { "fa": "پرند", "en": "Parand" }, "time": "22:10" },
-        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "22:29" },
-        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "22:33" },
-        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "22:38" },
-        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "22:43" },
-        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "22:52" },
-        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "23:05" },
-        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "23:20" }
+        { "name": { "fa": "پرند", "en": "Parand" }, "time": "21:45" },
+        { "name": { "fa": "رباط کریم", "en": "Robat Karim" }, "time": "22:04" },
+        { "name": { "fa": "نصیر شهر", "en": "Nasirshahr" }, "time": "22:09" },
+        { "name": { "fa": "گلستان", "en": "Golestan" }, "time": "22:14" },
+        { "name": { "fa": "نسیم شهر", "en": "Nasimshahr" }, "time": "22:19" },
+        { "name": { "fa": "اسلامشهر", "en": "Eslamshahr" }, "time": "22:27" },
+        { "name": { "fa": "تپه سفید", "en": "Tappe Sefid" }, "time": "22:40" },
+        { "name": { "fa": "تهران", "en": "Tehran" }, "time": "22:55" }
       ]
     }
   ]
